@@ -1,0 +1,11 @@
+/home/bersbot/proj/Cpp_/cmake-build-debug/CMakeFiles/Cpp_.run.dir
+/home/bersbot/proj/Cpp_/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/bersbot/proj/Cpp_/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/bersbot/proj/Cpp_/cmake-build-debug/include/glfw/CMakeFiles/edit_cache.dir
+/home/bersbot/proj/Cpp_/cmake-build-debug/include/glfw/CMakeFiles/rebuild_cache.dir
+/home/bersbot/proj/Cpp_/cmake-build-debug/include/glfw/src/CMakeFiles/glfw.dir
+/home/bersbot/proj/Cpp_/cmake-build-debug/include/glfw/src/CMakeFiles/edit_cache.dir
+/home/bersbot/proj/Cpp_/cmake-build-debug/include/glfw/src/CMakeFiles/rebuild_cache.dir
+/home/bersbot/proj/Cpp_/cmake-build-debug/include/glad/CMakeFiles/glad.dir
+/home/bersbot/proj/Cpp_/cmake-build-debug/include/glad/CMakeFiles/edit_cache.dir
+/home/bersbot/proj/Cpp_/cmake-build-debug/include/glad/CMakeFiles/rebuild_cache.dir
