@@ -34,7 +34,7 @@ int main()
     if (!gladLoadGL()) {
         std::cout << "Failed to load glad";
     }
-    glClearColor(0.3f, 0.6f, 0.8f, 0.2f);
+    glClearColor(0.3f, 0.6f, 0.8f, 0.0f);
 
     while (!glfwWindowShouldClose(window)) {
         glClear(GL_COLOR_BUFFER_BIT);
