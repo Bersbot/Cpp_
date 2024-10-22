@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.28.3 FATAL_ERROR)
 
 set(PROJECT_NAME Cpp_)
-project(${PROJECT_NAME})
+project(${PROJECT_NAME}.run)
 
 add_executable(${PROJECT_NAME} src/main.cpp)
 
