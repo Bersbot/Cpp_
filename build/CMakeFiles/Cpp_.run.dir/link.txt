@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/Cpp_.run.dir/src/main.cpp.o -o Cpp_.run  include/glfw/src/libglfw3.a include/glad/libglad.a /usr/lib/x86_64-linux-gnu/librt.a -lm -ldl /usr/lib/x86_64-linux-gnu/libX11.so 
