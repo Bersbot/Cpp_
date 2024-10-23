@@ -15,3 +15,4 @@ target_link_libraries(${PROJECT_NAME} glfw)
 
 add_subdirectory(include/glad)
 target_link_libraries(${PROJECT_NAME} glad)
+
