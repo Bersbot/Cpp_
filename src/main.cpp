@@ -1,24 +1,36 @@
 #include <SFML/Graphics.hpp>
 
-int main()
-{
-    sf::RenderWindow window(sf::VideoMode(200, 200), "SFML works");
-    sf::CircleShape shape(100.0f);
-    shape.setFillColor(sf::Color::Green);
+using namespace sf;
+RenderWindow window(VideoMode(640,480), "/-(.)_(.)-\\");
 
-    while (window.isOpen())
-    {
-        sf::Event event;
-        while (window.pollEvent(event))
-        {
-            if (event.type == sf::Event::Closed)
+
+
+int main(){
+    RectangleShape rect(Vector2f(512, 128 / 4));
+    rect.setOrigin(rect.getSize().x / 2 , rect.getSize().y / 2);
+    rect.setFillColor(Color(100, 0, 0, 255));
+    rect.setPosition(window.getSize().x / 2, window.getSize().y / 1.25);
+
+    Texture pl_t;
+    pl_t.loadFromFile("/./img/pl.png");
+
+    Sprite pl;
+    pl.setTexture(pl_t);
+    //pl.setOrigin(pl_t.getSize().x / 2, pl_t.getSize().y / 2);
+
+    while(window.isOpen()){
+        Event event;
+        while(window.pollEvent(event)){
+            if(event.type == Event::Closed){
+                // Close window button clicked.
                 window.close();
-        }
-
-        window.clear();
-        window.draw(shape);
+            }
+        }  
+        if (Keyboard::isKeyPressed(Keyboard::Escape)) {window.close(); }
+        window.clear(Color(40, 60, 90, 1));
+        window.draw(rect);
+        window.draw(pl);
         window.display();
     }
-
     return 0;
 }
